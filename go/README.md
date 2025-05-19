@@ -54,4 +54,4 @@ You can modify the benchmark parameters in the `main()` function:
 The benchmark uses:
 - `github.com/herumi/bls-eth-go-binary/bls` library for BLS12-381 curve operations
 - A simplified Ethereum attestation data structure
-- ETH mode Draft07 (compatible with Ethereum 2.0)
+- BLS signature scheme compatible with Ethereum

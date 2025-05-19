@@ -29,10 +29,12 @@ The repository contains the following implementations:
 ├── go/                  # Go implementation
 │   ├── bls_benchmark.go # Go benchmark code
 │   └── README.md        # Go-specific documentation
+│
 ├── python/              # Python implementation
 │   ├── bls_benchmark.py # Python benchmark code
 │   ├── requirements.txt # Python dependencies
 │   └── README.md        # Python-specific documentation
+│
 └── rust/                # Rust implementation
     ├── src/main.rs      # Rust benchmark code
     ├── Cargo.toml       # Rust dependencies

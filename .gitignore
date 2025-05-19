@@ -41,3 +41,4 @@ env/
 *.swp
 *.swo
 .DS_Store
+rust/target/

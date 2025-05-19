@@ -1,0 +1,15 @@
+[package]
+name = "bls-benchmark"
+version = "0.1.0"
+edition = "2021"
+description = "BLS Signature Verification Benchmark for Ethereum Attestations"
+authors = ["Cascade AI"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+blst = "0.3.11"
+rand = "0.8.5"
+hex = "0.4.3"
+byteorder = "1.4.3"
+chrono = "0.4.24"

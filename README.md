@@ -12,12 +12,14 @@ The repository contains the following implementations:
 
 - [Go Implementation](./go/): Uses the `herumi/bls-eth-go-binary` library
 - [Python Implementation](./python/): Uses the `py-ecc` library
+- [Rust Implementation](./rust/): Uses the `blst` library
 
 ## Performance Comparison
 
 | Implementation | Verifications/second | Notes |
 |----------------|----------------------|-------|
-| Go             | ~1079                | Much faster due to compiled language and optimized library |
+| Rust           | ~1421                | Fastest due to compiled language and highly optimized BLST library |
+| Go             | ~1079                | Fast due to compiled language and optimized library |
 | Python         | ~3.13                | Slower due to interpreted language and pure Python implementation |
 
 ## Repository Structure
@@ -27,10 +29,14 @@ The repository contains the following implementations:
 ├── go/                  # Go implementation
 │   ├── bls_benchmark.go # Go benchmark code
 │   └── README.md        # Go-specific documentation
-└── python/              # Python implementation
-    ├── bls_benchmark.py # Python benchmark code
-    ├── requirements.txt # Python dependencies
-    └── README.md        # Python-specific documentation
+├── python/              # Python implementation
+│   ├── bls_benchmark.py # Python benchmark code
+│   ├── requirements.txt # Python dependencies
+│   └── README.md        # Python-specific documentation
+└── rust/                # Rust implementation
+    ├── src/main.rs      # Rust benchmark code
+    ├── Cargo.toml       # Rust dependencies
+    └── README.md        # Rust-specific documentation
 ```
 
 ## Getting Started

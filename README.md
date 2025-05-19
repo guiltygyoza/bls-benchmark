@@ -4,7 +4,7 @@ This repository contains benchmarks for BLS (Boneh-Lynn-Shacham) signature verif
 
 ## Overview
 
-The benchmarks measure how many BLS signatures can be verified per second using the BLS12-381 curve implementation, which is the cryptographic scheme used in Ethereum 2.0 (Eth2) for validator attestations.
+The benchmarks measure how many BLS signatures can be verified per second using the BLS12-381 curve implementation, which is the cryptographic scheme used in post-merge Ethereum for validator attestations.
 
 ## Implementations
 
